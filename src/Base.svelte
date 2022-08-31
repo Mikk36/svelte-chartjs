@@ -16,7 +16,7 @@
   export let type = 'line';
   export let options = {};
   export let plugins = [];
-  let chart = null;
+  export let chart = null;
   let chartRef;
   let props = clean($$props, ["data", "type", "options", "plugins"]);
   onMount(() => {
